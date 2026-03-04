@@ -1,0 +1,2 @@
+Place the actual privacy-policy.pdf file in this directory (or replace this note).
+The footer links to /privacy-policy.pdf.
