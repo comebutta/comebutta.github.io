@@ -37,6 +37,14 @@ npm run build
 
 Genera l’output statico nella cartella `dist/`: HTML, CSS e JS ottimizzati e pronti per il deploy.
 
+### Deploy
+
+```bash
+npm run deploy
+```
+
+Fa il deployment nel branch `gh-pages`
+
 ### Anteprima della build in locale
 
 Dopo aver eseguito `npm run build`:
