@@ -8,6 +8,29 @@ Sito single-page in italiano per [ComeButta](https://comebutta.com): piattaforma
 - **Tailwind CSS** (v4) per lo stile
 - Build statica adatta a hosting statico (S3+CloudFront, Netlify, Vercel, GitHub Pages)
 
+## Struttura
+
+- `index.html` + `src/main.tsx`: home (single page con sezioni Visione, Come funziona, Sviluppo, Contattaci). Meta SEO, Open Graph e dati strutturati (JSON-LD) sono in `index.html`.
+- `privacy/index.html` e `termini-e-condizioni/index.html` + `src/legal-main.tsx`: pagine legali, servite come `/privacy/` e `/termini-e-condizioni/`.
+- `src/site.ts`: URL, contatti e dati societari usati in tutto il sito.
+- `public/robots.txt`, `public/sitemap.xml`: da aggiornare se si aggiungono pagine.
+
+## Testi legali
+
+I testi di Privacy Policy e Termini e Condizioni sono in `src/legal/*.txt` (markup minimale descritto in `src/legal/parse.ts`). Dopo averli modificati:
+
+```bash
+npm run legal
+```
+
+rigenera i PDF in `public/` e i `.docx` in `../legal/` (serve Google Chrome installato). Aggiorna anche la data "Ultimo aggiornamento" nel testo e `lastmod` in `public/sitemap.xml`.
+
+### Test
+
+```bash
+npm test
+```
+
 ## Prerequisiti
 
 - **Node.js** 18+ (consigliato 20 LTS)

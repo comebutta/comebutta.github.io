@@ -2,13 +2,64 @@
 <html lang="it">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="ComeButta – Piattaforma per tracciare i ritiri e generare report sullo smaltimento rifiuti." />
-    <title>ComeButta – Tracciamento rifiuti e report smaltimento</title>
+    <title>ComeButta | Monitoraggio e report dei rifiuti per immobili</title>
+    <meta name="description" content="Web-app per proprietari e gestori di immobili: stima i rifiuti per frazione dai ritiri registrati dagli operatori, senza hardware, anche offline. Report esportabili." />
+    <link rel="canonical" href="https://www.comebutta.com/" />
+    <meta name="theme-color" content="#15803d" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="it_IT" />
+    <meta property="og:site_name" content="ComeButta" />
+    <meta property="og:url" content="https://www.comebutta.com/" />
+    <meta property="og:title" content="ComeButta | Monitoraggio e report dei rifiuti per immobili" />
+    <meta property="og:description" content="Stima i rifiuti dei tuoi immobili per frazione, senza dispositivi da installare. Report pronti per la rendicontazione." />
+    <meta property="og:image" content="https://www.comebutta.com/logo.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.comebutta.com/#org",
+            "name": "ComeButta",
+            "legalName": "Come Butta S.r.l.",
+            "url": "https://www.comebutta.com/",
+            "logo": "https://www.comebutta.com/logo.png",
+            "email": "info@comebutta.com",
+            "telephone": "+39 328 737 1221",
+            "vatID": "IT14941800964",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Corso Ventidue Marzo 30",
+              "postalCode": "20135",
+              "addressLocality": "Milano",
+              "addressRegion": "MI",
+              "addressCountry": "IT"
+            }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "ComeButta",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "url": "https://app.comebutta.com/",
+            "description": "Piattaforma web per il monitoraggio e la rendicontazione dei rifiuti degli immobili.",
+            "publisher": { "@id": "https://www.comebutta.com/#org" }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <p>ComeButta: piattaforma web per il monitoraggio dei rifiuti negli immobili. Contatti: info@comebutta.com, +39 328 737 1221.</p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

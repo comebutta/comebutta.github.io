@@ -1,116 +1,104 @@
 import { motion } from "framer-motion";
-import { HeartHandshake, MonitorSmartphone, ShieldOff, WifiOff } from "lucide-react";
+import { HeartHandshake, MonitorSmartphone, ShieldOff, WifiOff, type LucideIcon } from "lucide-react";
+import type { ReactNode } from "react";
+
+type Feature = { icon: LucideIcon; title: string; body: ReactNode };
+
+const list = (items: string[]) => (
+  <ul className="list-disc space-y-1 pl-5 text-dark-green/90">
+    {items.map((i) => <li key={i}>{i}</li>)}
+  </ul>
+);
+
+const FEATURES: Feature[] = [
+  {
+    icon: MonitorSmartphone,
+    title: "Accessibile da qualsiasi dispositivo",
+    body: (
+      <>
+        <p>Una piattaforma online per proprietari di immobili e gestori di strutture, pensata per:</p>
+        {list([
+          "monitorare il consumo effettivo delle aree rifiuti",
+          "distinguere tra rifiuti riciclabili e non riciclabili",
+          "superare i calcoli basati solo su metratura o numero di fruitori",
+        ])}
+        <p>Si accede con le proprie credenziali da browser: nessuna app da scaricare, né per te né per i tuoi collaboratori. Ogni utente vede le sezioni di sua competenza in base ai permessi assegnati.</p>
+      </>
+    ),
+  },
+  {
+    icon: ShieldOff,
+    title: "Zero apparecchiature, zero sprechi",
+    body: (
+      <>
+        <p>La piattaforma non richiede monitor, bilance, badge o altri dispositivi fisici. Questo significa:</p>
+        {list([
+          "nessun investimento in hardware",
+          "nessun costo di manutenzione o ricambi",
+          "nessun problema di obsolescenza",
+          "nessun consumo energetico aggiuntivo",
+        ])}
+      </>
+    ),
+  },
+  {
+    icon: WifiOff,
+    title: "Funziona anche offline",
+    body: (
+      <p>
+        Se l’area rifiuti è in una zona con segnale debole o assente, i dati si raccolgono comunque e
+        vengono inviati automaticamente appena torna la connessione.
+      </p>
+    ),
+  },
+  {
+    icon: HeartHandshake,
+    title: "Uno strumento di supporto, non invasivo",
+    body: (
+      <>
+        <p>L’area rifiuti è uno spazio di interesse collettivo. ComeButta aiuta a usarla al meglio:</p>
+        {list([
+          "fornisce indicazioni chiare",
+          "aggiorna sulle novità della raccolta differenziata",
+          "rende accessibili a tutti le informazioni principali",
+        ])}
+      </>
+    ),
+  },
+];
 
 export function Features() {
-  const container = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: { staggerChildren: 0.15 },
-    },
-  };
-
-  const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-  };
-
   return (
-    <section id="features" className="scroll-mt-20 bg-light-gray px-4 py-16 sm:py-24">
+    <section id="features" className="bg-light-gray px-4 py-16 sm:py-24" aria-labelledby="features-heading">
       <div className="mx-auto max-w-6xl">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-3xl font-bold tracking-tight text-dark-green sm:text-4xl">
-            Semplice. Immediato. Sostenibile.
+        <div className="max-w-2xl">
+          <h2 id="features-heading" className="text-3xl font-bold tracking-tight text-dark-green sm:text-4xl">
+            Come funziona
           </h2>
-          <p className="mt-4 text-lg text-dark-green/80 max-w-2xl mx-auto">
-            Un modello che elimina barriere tecnologiche, per rendere il monitoraggio
-            alla portata di tutti.
+          <p className="mt-4 text-lg text-dark-green/90">
+            Configuriamo insieme a te i contenitori di ogni immobile. Da lì gli operatori registrano il
+            livello di riempimento a ogni ritiro e la piattaforma stima i quantitativi per frazione.
           </p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          variants={container}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, margin: "-100px" }}
-          className="grid gap-8 md:grid-cols-2"
-        >
-          {/* Feature 2: Accessibilità totale */}
-          <motion.div variants={item} className="bg-white rounded-2xl p-8 shadow-sm border border-black/5 hover:shadow-md transition-shadow">
-            <div className="h-12 w-12 rounded-lg bg-pale-green text-primary flex items-center justify-center mb-6">
-              <MonitorSmartphone className="h-6 w-6" />
-            </div>
-            <h3 className="text-xl font-bold text-dark-green mb-3">2. Accessibilità totale</h3>
-            <div className="space-y-3 text-dark-green/80 text-sm md:text-base">
-              <p>La società COME BUTTA sviluppa una piattaforma online dedicata ai proprietari di immobili e ai gestori di strutture.</p>
-              <ul className="list-disc pl-5 space-y-1 my-3 text-dark-green/90">
-                <li>Monitorare il consumo effettivo delle aree rifiuti</li>
-                <li>Distinguere tra quantità di rifiuti riciclabili e non riciclabili</li>
-                <li>Superare i modelli di calcolo basati esclusivamente su metratura o numero di fruitori</li>
-              </ul>
-              <p>La piattaforma è accessibile tramite credenziali da qualsiasi dispositivo connesso a Internet. Non è prevista la realizzazione di un’applicazione dedicata: non è necessario scaricare nulla, né per il cliente né per i suoi collaboratori.</p>
-              <p className="font-medium">Basta un browser e una connessione.</p>
-              <p>Ogni utente, in base ai permessi assegnati, può consultare e utilizzare le sezioni di propria competenza in modo rapido e intuitivo.</p>
-            </div>
-          </motion.div>
-
-          {/* Feature 3: Zero apparecchiature */}
-          <motion.div variants={item} className="bg-white rounded-2xl p-8 shadow-sm border border-black/5 hover:shadow-md transition-shadow">
-            <div className="h-12 w-12 rounded-lg bg-pale-green text-primary flex items-center justify-center mb-6">
-              <ShieldOff className="h-6 w-6" />
-            </div>
-            <h3 className="text-xl font-bold text-dark-green mb-3">3. Zero apparecchiature, zero sprechi</h3>
-            <div className="space-y-3 text-dark-green/80 text-sm md:text-base">
-              <p>Siamo convinti che la sostenibilità debba partire dagli strumenti stessi che utilizziamo.</p>
-              <p>A differenza di molte soluzioni presenti sul mercato, la nostra piattaforma non richiede l’acquisto o l’installazione di dispositivi fisici come monitor, bilance, badge o altri accessori tecnologici.</p>
-              <p>Questo significa:</p>
-              <ul className="list-disc pl-5 space-y-1 mb-3 text-dark-green/90">
-                <li>Nessun investimento in hardware</li>
-                <li>Nessun costo di manutenzione o ricambi</li>
-                <li>Nessun problema di obsolescenza</li>
-                <li>Nessun consumo energetico aggiuntivo</li>
-              </ul>
-              <p className="font-medium text-primary">Un sistema a impatto zero che riduce costi, sprechi e complessità gestionale.</p>
-            </div>
-          </motion.div>
-
-          {/* Feature 4: Funzionamento anche offline */}
-          <motion.div variants={item} className="bg-white rounded-2xl p-8 shadow-sm border border-black/5 hover:shadow-md transition-shadow">
-            <div className="h-12 w-12 rounded-lg bg-pale-green text-primary flex items-center justify-center mb-6">
-              <WifiOff className="h-6 w-6" />
-            </div>
-            <h3 className="text-xl font-bold text-dark-green mb-3">4. Funzionamento anche offline</h3>
-            <div className="space-y-3 text-dark-green/80 text-sm md:text-base">
-              <p>Per garantire la massima continuità operativa, la piattaforma consente di raccogliere dati anche in modalità offline, qualora l’area rifiuti si trovi in una zona con segnale Internet debole o assente.</p>
-              <p>I dati vengono registrati automaticamente non appena la connessione torna disponibile.</p>
-              <p className="font-medium text-dark-green/90">Perché l’utilizzo corretto dell’area rifiuti deve poter diventare il più diffuso possibile, senza limiti tecnici.</p>
-            </div>
-          </motion.div>
-
-          {/* Feature 5: Uno strumento di supporto */}
-          <motion.div variants={item} className="bg-white rounded-2xl p-8 shadow-sm border border-black/5 hover:shadow-md transition-shadow">
-            <div className="h-12 w-12 rounded-lg bg-pale-green text-primary flex items-center justify-center mb-6">
-              <HeartHandshake className="h-6 w-6" />
-            </div>
-            <h3 className="text-xl font-bold text-dark-green mb-3">5. Strumento di supporto, non invasivo</h3>
-            <div className="space-y-3 text-dark-green/80 text-sm md:text-base">
-              <p>L’area rifiuti è uno spazio di interesse collettivo. È corretto che tutti possano utilizzarla al meglio.</p>
-              <p>COME BUTTA vuole essere uno strumento di supporto sempre disponibile, non invasivo, capace di:</p>
-              <ul className="list-disc pl-5 space-y-1 my-3 text-dark-green/90">
-                <li>Fornire indicazioni chiare</li>
-                <li>Aggiornare sulle novità relative alla raccolta differenziata</li>
-                <li>Rendere accessibili le informazioni principali a chiunque</li>
-              </ul>
-              <p className="font-medium text-primary">Il nostro obiettivo è diventare un punto di riferimento e fonte di ispirazione per una gestione corretta dei rifiuti e dei dati.</p>
-            </div>
-          </motion.div>
-        </motion.div>
+        <div className="mt-12 grid gap-6 md:grid-cols-2">
+          {FEATURES.map(({ icon: Icon, title, body }, i) => (
+            <motion.article
+              key={title}
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-80px" }}
+              transition={{ duration: 0.4, delay: (i % 2) * 0.1 }}
+              className="rounded-2xl border border-dark-green/10 bg-white p-6 sm:p-8"
+            >
+              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-lg bg-pale-green text-primary">
+                <Icon className="h-6 w-6" aria-hidden />
+              </div>
+              <h3 className="mb-3 text-xl font-bold text-dark-green">{title}</h3>
+              <div className="space-y-3 text-dark-green/90">{body}</div>
+            </motion.article>
+          ))}
+        </div>
       </div>
     </section>
   );

@@ -1,87 +1,57 @@
-const PHONE = "+39 328 737 1221";
-const TEL_LINK = "tel:+393287371221";
-const WHATSAPP_LINK = "https://wa.me/393287371221";
-const EMAIL = "info@comebutta.com";
-const MAILTO = "mailto:info@comebutta.com";
+import { APP_URL, CONTACTS } from "../site";
+
+const card =
+  "flex h-full items-center gap-4 rounded-xl border border-dark-green/10 bg-light-gray px-5 py-4 transition-colors hover:border-primary/40 hover:bg-pale-green focus:outline-none focus-visible:ring-2 focus-visible:ring-primary";
+const iconWrap = "flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary";
 
 export function Contattaci() {
   return (
-    <section
-      id="contattaci"
-      className="scroll-mt-20 bg-white px-4 py-16 sm:py-20"
-      aria-labelledby="contattaci-heading"
-    >
+    <section id="contattaci" className="bg-white px-4 py-16 sm:py-24" aria-labelledby="contattaci-heading">
       <div className="mx-auto max-w-6xl">
-        <h2
-          id="contattaci-heading"
-          className="text-3xl font-bold text-dark-blue sm:text-4xl"
-        >
+        <h2 id="contattaci-heading" className="text-3xl font-bold tracking-tight text-dark-green sm:text-4xl">
           Contattaci
         </h2>
-        <p className="mt-4 max-w-2xl text-lg text-dark-blue/90">
-          Per informazioni o per richiedere un preventivo, puoi raggiungerci
-          tramite i seguenti contatti.
+        <p className="mt-4 max-w-2xl text-lg text-dark-green/90">
+          Vuoi una demo o un preventivo per i tuoi immobili? Scrivici o chiamaci.
         </p>
 
-        <ul
-          className="mt-10 flex flex-wrap gap-6"
-          role="list"
-          aria-label="Dati di contatto"
-        >
+        <ul className="mt-10 grid gap-4 sm:grid-cols-3" aria-label="Dati di contatto">
           <li>
-            <a
-              href={TEL_LINK}
-              className="flex items-center gap-3 rounded-lg border border-light-gray bg-light-gray/30 px-6 py-4 text-dark-blue hover:border-primary/30 hover:bg-pale-green/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
-            >
-              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
-                <PhoneIcon />
+            <a href={CONTACTS.telLink} className={card}>
+              <span className={iconWrap}><PhoneIcon /></span>
+              <span>
+                <span className="block text-sm text-dark-green/80">Telefono</span>
+                <span className="font-semibold text-primary">{CONTACTS.phone}</span>
               </span>
-              <div>
-                <span className="block text-sm font-medium text-dark-blue/80">
-                  Telefono
-                </span>
-                <span className="font-semibold text-primary">{PHONE}</span>
-              </div>
             </a>
           </li>
           <li>
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 rounded-lg border border-light-gray bg-light-gray/30 px-6 py-4 text-dark-blue hover:border-green/30 hover:bg-pale-green/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
-              aria-label="Apri chat WhatsApp"
-            >
-              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-green/20 text-green">
-                <WhatsAppIcon />
+            <a href={CONTACTS.whatsappLink} target="_blank" rel="noopener noreferrer" className={card}>
+              <span className={iconWrap}><WhatsAppIcon /></span>
+              <span>
+                <span className="block text-sm text-dark-green/80">WhatsApp</span>
+                <span className="font-semibold text-primary">Scrivici in chat</span>
+                <span className="sr-only"> (si apre in una nuova scheda)</span>
               </span>
-              <div>
-                <span className="block text-sm font-medium text-dark-blue/80">
-                  WhatsApp
-                </span>
-                <span className="font-semibold text-green">Scrivici</span>
-              </div>
             </a>
           </li>
           <li>
-            <a
-              href={MAILTO}
-              className="flex items-center gap-3 rounded-lg border border-light-gray bg-light-gray/30 px-6 py-4 text-dark-blue hover:border-primary/30 hover:bg-pale-green/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary"
-            >
-              <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
-                <EmailIcon />
+            <a href={`mailto:${CONTACTS.email}`} className={card}>
+              <span className={iconWrap}><EmailIcon /></span>
+              <span className="min-w-0">
+                <span className="block text-sm text-dark-green/80">Email</span>
+                <span className="break-all font-semibold text-primary">{CONTACTS.email}</span>
               </span>
-              <div>
-                <span className="block text-sm font-medium text-dark-blue/80">
-                  Email
-                </span>
-                <span className="font-semibold text-primary break-all">
-                  {EMAIL}
-                </span>
-              </div>
             </a>
           </li>
         </ul>
+
+        <p className="mt-8 text-dark-green/90">
+          Sei già cliente?{" "}
+          <a href={APP_URL} className="font-medium text-primary underline underline-offset-4 hover:text-dark-green">
+            Accedi alla piattaforma
+          </a>
+        </p>
       </div>
     </section>
   );

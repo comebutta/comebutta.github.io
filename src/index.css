@@ -2,33 +2,37 @@
 @config "../tailwind.config.ts";
 
 @theme {
-  /* ComeButta brand palette - Eco Friendly */
-  --color-primary: #15803d; /* Green 600 */
+  /* ComeButta brand palette. Testo sempre in dark-green (contrasto AA su bianco e pale-green). */
+  --color-primary: #15803d; /* Green 700 */
   --color-dark-green: #064e3b; /* Emerald 900 */
-  --color-accent: #10b981; /* Emerald 500 */
+  --color-accent: #10b981; /* Emerald 500, solo decorativo */
   --color-pale-green: #f0fdf4; /* Green 50 */
   --color-light-gray: #f8fafc; /* Slate 50 */
 }
 
 html {
   scroll-behavior: smooth;
+  /* Le ancore non finiscono sotto l'header sticky (h-16). */
+  scroll-padding-top: 4.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
   margin: 0;
   min-height: 100vh;
   background-color: var(--color-light-gray);
-  color: var(--color-dark-blue);
+  color: var(--color-dark-green);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#root {
-  min-height: 100vh;
-}
-
-/* Focus visible for keyboard navigation */
+/* Focus visibile per la navigazione da tastiera */
 a:focus-visible,
 button:focus-visible {
   outline: 2px solid var(--color-primary);

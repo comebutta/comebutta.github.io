@@ -1,0 +1,99 @@
+# Informativa sulla privacy
+@Ai sensi degli artt. 13 e 14 del Regolamento (UE) 2016/679 ("GDPR") e del D.Lgs. 196/2003 ("Codice Privacy")
+@Ultimo aggiornamento: 10 novembre 2026
+
+## 1. Titolare del trattamento
+Il titolare del trattamento è **Come Butta S.r.l.** ("Come Butta", "noi"), con sede legale in Corso Ventidue Marzo 30, 20135 Milano (MI), codice fiscale, partita IVA e n. di iscrizione al Registro delle Imprese di Milano Monza Brianza Lodi 14941800964, REA MI-2816931, capitale sociale Euro 10.000,00 interamente versato.
+Per qualsiasi richiesta relativa al trattamento dei dati personali puoi scriverci a:
+- e-mail: info@comebutta.com
+- PEC: amm.comebutta.srl@pec.it
+- posta: Come Butta S.r.l., Corso Ventidue Marzo 30, 20135 Milano
+Come Butta non ha nominato un Responsabile della protezione dei dati (DPO), non ricorrendo i presupposti dell'art. 37 GDPR.
+
+## 2. A chi si rivolge questa informativa
+La presente informativa riguarda i dati personali trattati da Come Butta:
+- (a) quando visiti il sito www.comebutta.com (il "Sito");
+- (b) quando ci contatti (via e-mail, telefono o altri canali);
+- (c) nella gestione dei rapporti precontrattuali e contrattuali con i nostri clienti e fornitori, inclusi i relativi referenti;
+- (d) quando utilizzi la web-app Come Butta disponibile su app.comebutta.com (la "Piattaforma").
+
+### 2.1 Dati trattati nella Piattaforma per conto dei clienti
+La Piattaforma è concessa in licenza a imprese e organizzazioni (i "Clienti", ad esempio proprietari o gestori di immobili) che la usano per monitorare i rifiuti dei propri immobili. Per i dati personali inseriti o generati nella Piattaforma nell'ambito di tale utilizzo (es. dati degli utenti invitati dal Cliente, registrazioni dei ritiri), **il titolare del trattamento è il Cliente**, mentre Come Butta agisce quale **responsabile del trattamento** ai sensi dell'art. 28 GDPR, sulla base di un apposito accordo e secondo le istruzioni del Cliente.
+Se utilizzi la Piattaforma perché sei dipendente, collaboratore o fornitore di un Cliente, per conoscere in dettaglio finalità, basi giuridiche e tempi di conservazione puoi fare riferimento all'informativa del Cliente e rivolgerti a quest'ultimo per esercitare i tuoi diritti. Se ti rivolgi a noi, inoltreremo prontamente la richiesta al Cliente interessato e lo assisteremo nel darvi riscontro. Le informazioni riportate di seguito sulla Piattaforma sono fornite per trasparenza.
+
+## 3. Quali dati trattiamo
+### 3.1 Dati di navigazione
+I sistemi informatici che gestiscono il Sito e la Piattaforma acquisiscono, nel normale funzionamento, alcuni dati la cui trasmissione è implicita nell'uso dei protocolli Internet: indirizzo IP, data e ora della richiesta, risorsa richiesta, codice di risposta, tipo di browser e sistema operativo. Sono usati per garantire il funzionamento e la sicurezza dei servizi e per accertare eventuali responsabilità in caso di illeciti.
+### 3.2 Dati forniti volontariamente
+Quando ci scrivi o ci contatti trattiamo i dati che ci comunichi: nome, cognome, indirizzo e-mail, numero di telefono, società di appartenenza, ruolo e il contenuto del messaggio.
+### 3.3 Dati di clienti, fornitori e referenti
+Dati identificativi e di contatto dei referenti (nome, cognome, ruolo, e-mail, telefono, PEC), dati societari, fiscali e di fatturazione, dati di pagamento (es. coordinate bancarie) e corrispondenza relativa al rapporto.
+### 3.4 Dati trattati nella Piattaforma
+- **Dati dell'account**: nome, cognome, indirizzo e-mail, credenziali di accesso (la password è gestita in forma cifrata dal servizio di autenticazione e non è mai visibile a Come Butta), ruolo e permessi, immobili e aree assegnati, preferenze di notifica.
+- **Dati di utilizzo**: registrazioni effettuate (es. livelli di riempimento dei contenitori, data e ora dei ritiri), con l'indicazione dell'utente che le ha inserite, modificate o approvate, e log tecnici di accesso e di sicurezza.
+- **Dati relativi agli immobili**: anagrafica degli immobili, contenitori e calendari di raccolta; di norma non sono dati personali, salvo quando riferibili a persone fisiche (es. referenti o ditte individuali).
+La Piattaforma non è progettata per trattare categorie particolari di dati (art. 9 GDPR) né dati relativi a condanne penali e reati (art. 10 GDPR): ti chiediamo di non inserirli.
+### 3.5 Fotocamera del dispositivo
+Per leggere i QR code dei contenitori, la Piattaforma può chiederti l'accesso alla fotocamera del dispositivo. Il permesso è gestito dal browser e puoi revocarlo in qualsiasi momento. L'immagine è elaborata solo sul tuo dispositivo per decodificare il QR code: nessuna immagine o video viene registrato o inviato ai nostri server.
+
+## 4. Finalità e basi giuridiche
+|Finalità|Base giuridica (art. 6 GDPR)
+|Garantire il funzionamento, la sicurezza e la prevenzione di abusi del Sito e della Piattaforma|Legittimo interesse di Come Butta (art. 6.1.f)
+|Rispondere alle tue richieste di informazioni e preparare offerte|Esecuzione di misure precontrattuali adottate su tua richiesta (art. 6.1.b)
+|Stipulare ed eseguire i contratti con clienti e fornitori, gestire fatturazione, pagamenti e assistenza|Esecuzione del contratto (art. 6.1.b); per i referenti di persone giuridiche, legittimo interesse alla gestione del rapporto (art. 6.1.f)
+|Adempiere a obblighi di legge (es. fiscali e contabili) e a richieste delle autorità|Obbligo legale (art. 6.1.c)
+|Erogare la Piattaforma ai Clienti (creazione account, accessi, notifiche e e-mail di servizio, assistenza)|Trattamento svolto per conto del Cliente titolare (art. 28 GDPR), sulla base giuridica individuata da quest'ultimo
+|Accertare, esercitare o difendere un diritto in sede giudiziale o stragiudiziale|Legittimo interesse di Come Butta (art. 6.1.f)
+|Misurare l'utilizzo del Sito e svolgere attività di marketing e pubblicità online (es. Google Analytics, Google Ads), se e quando attivate|Consenso (art. 6.1.a), revocabile in qualsiasi momento
+Come Butta può inoltre elaborare statistiche e studi partendo dai dati della Piattaforma solo dopo averli resi **anonimi**, cioè in modo tale da non consentire in alcun modo la re-identificazione degli interessati; i dati anonimi non sono dati personali e non sono ceduti a terzi.
+
+## 5. Natura del conferimento
+Il conferimento dei dati di navigazione è necessario per l'uso del Sito e della Piattaforma. Il conferimento dei dati per le finalità contrattuali e di legge è necessario: in mancanza non potremo rispondere alle richieste, stipulare o eseguire il contratto o attivare l'account. Il consenso per finalità di statistica e marketing, quando richiesto, è facoltativo e il suo mancato rilascio non pregiudica l'uso dei servizi.
+
+## 6. Modalità del trattamento e sicurezza
+I dati sono trattati con strumenti elettronici, da personale autorizzato e vincolato alla riservatezza, adottando misure tecniche e organizzative adeguate al rischio (art. 32 GDPR), tra cui: cifratura delle comunicazioni (HTTPS/TLS), cifratura dei dati a riposo, autenticazione con credenziali personali, controllo degli accessi per ruolo, backup e registrazione degli accessi. Non effettuiamo processi decisionali interamente automatizzati, compresa la profilazione, che producano effetti giuridici o analogamente significativi sugli interessati (art. 22 GDPR). Le stime dei quantitativi di rifiuti elaborate dalla Piattaforma riguardano gli immobili e non costituiscono decisioni sulle persone.
+
+## 7. Destinatari dei dati
+I dati possono essere comunicati, nei limiti necessari, a:
+- **fornitori che trattano dati per nostro conto** in qualità di responsabili o sub-responsabili del trattamento, vincolati da accordi ai sensi dell'art. 28 GDPR:
+-- Amazon Web Services EMEA SARL (Lussemburgo): infrastruttura cloud, hosting, database, autenticazione degli utenti; i dati sono conservati nella region AWS Europa (Milano);
+-- MailerSend: invio delle e-mail di servizio (es. inviti, recupero password, notifiche);
+-- Google Ireland Limited (Google Analytics, Google Ads), solo se e quando attivati e previo tuo consenso;
+- consulenti e professionisti (es. commercialista, legali), istituti bancari, autorità pubbliche quando previsto dalla legge;
+- per i dati della Piattaforma, il Cliente titolare del trattamento e i soggetti da questo autorizzati.
+I dati non sono diffusi né venduti. L'elenco aggiornato dei fornitori è disponibile su richiesta scrivendo a info@comebutta.com.
+
+## 8. Trasferimenti al di fuori dello Spazio Economico Europeo
+I dati sono conservati su server situati nell'Unione Europea. Alcuni fornitori appartengono a gruppi con sede al di fuori dello Spazio Economico Europeo (es. Stati Uniti) e potrebbero accedere ai dati, ad esempio per finalità di assistenza tecnica o per l'erogazione della rete di distribuzione dei contenuti (CDN). In tal caso il trasferimento avviene solo in presenza di garanzie adeguate ai sensi degli artt. 44 e seguenti GDPR, quali una decisione di adeguatezza della Commissione Europea (incluso l'EU-U.S. Data Privacy Framework, per i fornitori certificati) o le Clausole Contrattuali Standard approvate dalla Commissione. Per i dati della Piattaforma, i trasferimenti avvengono solo nei limiti autorizzati dal Cliente. Puoi chiedere copia delle garanzie adottate scrivendo a info@comebutta.com.
+
+## 9. Per quanto tempo conserviamo i dati
+|Dati|Periodo di conservazione
+|Dati di navigazione e log tecnici|Fino a 12 mesi, salvo necessità di accertamento di illeciti
+|Richieste di contatto non seguite da un contratto|24 mesi dall'ultimo contatto
+|Dati contrattuali, contabili e fiscali|Per la durata del contratto e 10 anni dalla sua cessazione (art. 2220 c.c.), o il maggior termine richiesto dalla legge o necessario per la tutela dei diritti
+|Dati della Piattaforma (account e registrazioni)|Per la durata del contratto con il Cliente; alla cessazione sono restituiti al Cliente e cancellati secondo quanto previsto dal contratto e dalle istruzioni del Cliente, salvo obblighi di legge
+|Dati trattati con il tuo consenso (statistica e marketing)|Fino alla revoca del consenso e comunque non oltre i termini indicati nella cookie policy
+Decorsi tali periodi i dati sono cancellati o resi anonimi.
+
+## 10. Cookie e tecnologie simili
+Alla data di questa informativa il Sito non utilizza cookie di profilazione né strumenti di analisi o pubblicità di terze parti.
+La Piattaforma utilizza esclusivamente strumenti tecnici necessari al suo funzionamento, tra cui la memoria locale del browser (local storage) per mantenere la sessione di accesso, salvare le preferenze di visualizzazione e conservare temporaneamente le registrazioni effettuate senza connessione Internet fino alla loro sincronizzazione. Questi strumenti non richiedono il consenso (art. 122 Codice Privacy) e i relativi dati restano sul tuo dispositivo finché non effettui il logout o cancelli i dati del browser.
+Qualora in futuro venissero introdotti strumenti di analisi o di marketing (es. Google Analytics, Google Ads), questi saranno attivati solo previo consenso raccolto tramite apposito banner, che ti consentirà di accettare, rifiutare o personalizzare le tue scelte, e la presente informativa sarà aggiornata con una specifica cookie policy.
+
+## 11. I tuoi diritti
+Nei limiti previsti dal GDPR hai diritto di:
+- accedere ai tuoi dati e ottenerne copia (art. 15);
+- ottenerne la rettifica o l'integrazione (art. 16);
+- ottenerne la cancellazione (art. 17);
+- ottenere la limitazione del trattamento (art. 18);
+- ricevere i dati in formato strutturato, di uso comune e leggibile da dispositivo automatico e trasmetterli a un altro titolare (portabilità, art. 20);
+- **opporti in qualsiasi momento** al trattamento basato sul legittimo interesse, per motivi connessi alla tua situazione particolare (art. 21);
+- revocare in qualsiasi momento il consenso prestato, senza pregiudicare la liceità del trattamento effettuato prima della revoca (art. 7.3).
+Puoi esercitare i diritti scrivendo a info@comebutta.com o alla PEC amm.comebutta.srl@pec.it. Ti risponderemo senza ingiustificato ritardo e comunque entro un mese dalla richiesta, prorogabile di due mesi nei casi più complessi. Potremo chiederti informazioni utili a verificare la tua identità.
+Se ritieni che il trattamento violi il GDPR, hai diritto di proporre reclamo al Garante per la protezione dei dati personali (www.garanteprivacy.it) o all'autorità di controllo dello Stato UE in cui risiedi o lavori.
+
+## 12. Minori
+I servizi di Come Butta sono rivolti a imprese e professionisti e non sono destinati a minori di 18 anni.
+
+## 13. Modifiche
+Possiamo aggiornare questa informativa, ad esempio in caso di modifiche normative o dei servizi offerti. La versione in vigore è sempre pubblicata sul Sito con la data dell'ultimo aggiornamento; in caso di modifiche rilevanti ne daremo comunicazione agli utenti della Piattaforma.
