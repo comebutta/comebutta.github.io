@@ -9,14 +9,11 @@ export function Footer() {
       <div className="mx-auto grid max-w-6xl gap-8 sm:grid-cols-[1fr_auto]">
         <div className="space-y-1">
           <p className="font-semibold text-dark-green">{COMPANY.name}</p>
-          <p>{COMPANY.address}</p>
           <p>
-            P.IVA e C.F. {COMPANY.vat} · REA {COMPANY.rea} · Cap. soc. {COMPANY.capital}
+            P.IVA e C.F. {COMPANY.vat} · Cap. soc. {COMPANY.capital}
           </p>
           <p>
             <a className={linkClass} href={`mailto:${CONTACTS.email}`}>{CONTACTS.email}</a>
-            {" · PEC "}
-            <a className={linkClass} href={`mailto:${CONTACTS.pec}`}>{CONTACTS.pec}</a>
           </p>
         </div>
 
@@ -26,7 +23,7 @@ export function Footer() {
           <a className={linkClass} href="/termini-e-condizioni/">Termini e Condizioni</a>
         </nav>
 
-        <p className="text-dark-green/60 sm:col-span-2">© 2026 {COMPANY.name}. Tutti i diritti riservati.</p>
+        <p className="text-dark-green/60 sm:col-span-2">© 2026 {COMPANY.name} Tutti i diritti riservati.</p>
       </div>
     </footer>
   );
