@@ -1,6 +1,6 @@
 # Informativa sulla privacy
 @Ai sensi degli artt. 13 e 14 del Regolamento (UE) 2016/679 ("GDPR") e del D.Lgs. 196/2003 ("Codice Privacy")
-@Ultimo aggiornamento: 10 novembre 2026
+@Ultimo aggiornamento: 13 novembre 2026
 
 ## 1. Titolare del trattamento
 Il titolare del trattamento è **Come Butta S.r.l.** ("Come Butta", "noi"), con sede legale in Corso Ventidue Marzo 30, 20135 Milano (MI), codice fiscale, partita IVA e n. di iscrizione al Registro delle Imprese di Milano Monza Brianza Lodi 14941800964, REA MI-2816931, capitale sociale Euro 10.000,00 interamente versato.
@@ -31,10 +31,14 @@ Dati identificativi e di contatto dei referenti (nome, cognome, ruolo, e-mail, t
 ### 3.4 Dati trattati nella Piattaforma
 - **Dati dell'account**: nome, cognome, indirizzo e-mail, credenziali di accesso (la password è gestita in forma cifrata dal servizio di autenticazione e non è mai visibile a Come Butta), ruolo e permessi, immobili e aree assegnati, preferenze di notifica.
 - **Dati di utilizzo**: registrazioni effettuate (es. livelli di riempimento dei contenitori, data e ora dei ritiri), con l'indicazione dell'utente che le ha inserite, modificate o approvate, e log tecnici di accesso e di sicurezza.
+- **Foto degli oggetti fuori formato**, se la funzione è attivata dal Cliente: l'immagine, l'eventuale nota, data e ora dello scatto e l'utente che l'ha scattata. Le foto servono a documentare oggetti che non possono essere conferiti nei contenitori (es. arredi o apparecchiature) e non dovrebbero ritrarre persone; tuttavia possono comparire in modo occasionale persone, volti, targhe o altri elementi che consentono di identificare una persona.
 - **Dati relativi agli immobili**: anagrafica degli immobili, contenitori e calendari di raccolta; di norma non sono dati personali, salvo quando riferibili a persone fisiche (es. referenti o ditte individuali).
 La Piattaforma non è progettata per trattare categorie particolari di dati (art. 9 GDPR) né dati relativi a condanne penali e reati (art. 10 GDPR): ti chiediamo di non inserirli.
-### 3.5 Fotocamera del dispositivo
-Per leggere i QR code dei contenitori, la Piattaforma può chiederti l'accesso alla fotocamera del dispositivo. Il permesso è gestito dal browser e puoi revocarlo in qualsiasi momento. L'immagine è elaborata solo sul tuo dispositivo per decodificare il QR code: nessuna immagine o video viene registrato o inviato ai nostri server.
+### 3.5 Fotocamera del dispositivo e foto
+La Piattaforma può chiederti l'accesso alla fotocamera del dispositivo. Il permesso è gestito dal browser e puoi revocarlo in qualsiasi momento.
+- **Lettura dei QR code**: l'immagine è elaborata solo sul tuo dispositivo per decodificare il QR code; nessuna immagine o video viene registrato o inviato ai nostri server.
+- **Foto degli oggetti fuori formato**: se la funzione è attiva, le foto che scatti vengono ridotte e private dei metadati (compresa la posizione) direttamente sul dispositivo, restano sul dispositivo fino alla sincronizzazione e sono poi salvate in forma cifrata su server nell'Unione Europea. Sono visibili solo agli utenti del Cliente con ruolo di gestione, tramite collegamenti temporanei.
+Quando scatti una foto inquadra solo l'oggetto ed evita persone, volti, targhe e documenti; se compare qualcuno, ripeti la foto. Sulle foto non effettuiamo riconoscimento facciale né altre elaborazioni biometriche: le immagini non sono quindi trattate come dati biometrici ai sensi dell'art. 9 GDPR.
 
 ## 4. Finalità e basi giuridiche
 |Finalità|Base giuridica (art. 6 GDPR)
@@ -71,6 +75,7 @@ I dati sono conservati su server situati nell'Unione Europea. Alcuni fornitori a
 |Dati di navigazione e log tecnici|Fino a 12 mesi, salvo necessità di accertamento di illeciti
 |Richieste di contatto non seguite da un contratto|24 mesi dall'ultimo contatto
 |Dati contrattuali, contabili e fiscali|Per la durata del contratto e 10 anni dalla sua cessazione (art. 2220 c.c.), o il maggior termine richiesto dalla legge o necessario per la tutela dei diritti
+|Foto degli oggetti fuori formato|12 mesi dallo scatto e comunque non oltre la cessazione del contratto con il Cliente
 |Dati della Piattaforma (account e registrazioni)|Per la durata del contratto con il Cliente; alla cessazione sono restituiti al Cliente e cancellati secondo quanto previsto dal contratto e dalle istruzioni del Cliente, salvo obblighi di legge
 |Dati trattati con il tuo consenso (statistica e marketing)|Fino alla revoca del consenso e comunque non oltre i termini indicati nella cookie policy
 Decorsi tali periodi i dati sono cancellati o resi anonimi.
